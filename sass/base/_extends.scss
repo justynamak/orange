@@ -1,0 +1,6 @@
+%transitionOpacity{
+    @include transition($props:opacity, $speed: 0.4s, $easing: linear);
+}
+%transitionAll{
+    @include transition;
+}

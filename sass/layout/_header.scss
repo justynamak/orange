@@ -1,0 +1,45 @@
+//VARIABLES
+
+//typography
+$header-heading__font-size:15vw;
+$header-subtitle__font-size:1.125rem;
+//colors
+$header-text__color:#fff;
+
+//STYLES
+.header{
+    height:80vh;
+    min-height: 21rem;
+    width: 100%;
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    text-align: center;        
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3.125em; //50px//
+    line-height: 1;
+    position:relative;
+    overflow: hidden;
+    color: $header-text__color;
+    
+    &__heading{    
+        font-size: $header-heading__font-size;
+        padding: 2rem 1.5rem 0 1.5rem;
+    }
+    
+    &__subtitle{    
+        font-size:$header-subtitle__font-size;    
+        padding: 0 1.5rem;
+}
+    &__layout-author{
+        position: absolute;
+        bottom: 2.5rem;
+        left:0.5rem;
+        transform: rotate(-90deg);
+        transform-origin: 0 0;    
+        font-size: 0.625rem;    
+    }
+}

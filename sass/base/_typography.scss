@@ -1,0 +1,50 @@
+//TYPOGRAPHY VARIABLES//
+
+$base__font-family:'Space Mono', monospace;
+$base__font-size: 0.875rem; //14px//
+
+$secondary__font-family:'Radley', serif;
+
+$heading__font-size--x-large: 12.5rem; //200px//
+$heading__font-size--large: 2.5rem; //40px//
+$heading__font-size--medium: 1.5rem; //24px//
+
+$base__text-color: #000;
+$secondary__text-color:#F04D23;
+    
+
+//TYPOGRAPHY STYLES//
+
+body{
+    font-family: $base__font-family;
+    font-size: $base__font-size;
+}
+
+.heading{
+    font-family: $secondary__font-family;
+    &--x-large{
+        font-size: $heading__font-size--x-large;
+        line-height: 0.7;
+        margin-bottom: 2rem;
+    }
+    &--large{
+        font-size: $heading__font-size--large;
+        line-height: 1.2;
+        margin-bottom: 1.5rem;
+    }
+    &--medium{
+        font-size: $heading__font-size--medium;
+        
+    }
+}
+.text{
+    font-size: 0.875rem;//14px//
+    
+    &--underline{
+       text-decoration: underline; 
+    }
+}
+
+.sign{
+    color: $secondary__text-color;    
+}

@@ -1,0 +1,6 @@
+//TRANSITIONS
+@mixin transition($props: all, $speed: 0.7s, $easing: ease-in-out){
+    transition: $props $speed $easing;
+}
+
+

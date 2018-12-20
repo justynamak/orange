@@ -1,0 +1,23 @@
+//SOCIAL VARIABLES
+
+//colors
+$social-link__opacity--hover:0.5;
+
+//STYLES
+.social{
+    position: fixed;
+    left: 0;
+    top:30vh;
+    z-index: 11;  
+    
+    &__item{
+        width: 2.5rem; 
+    }
+    &__link{       
+        @extend %transitionOpacity;
+        
+        &:hover{
+            opacity: $social-link__opacity--hover;            
+        }
+    }
+}

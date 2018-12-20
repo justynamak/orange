@@ -1,0 +1,26 @@
+//NAV VARIABLES
+
+//typography
+$nav-link__font-size: 0.75rem;   //12px//
+
+//colors
+$nav-link__text-color:#000;
+
+
+//STYLES
+.nav{
+    position:absolute;    
+    top:0;
+    margin-bottom: 2rem;
+    
+    
+    &__item{
+    display: inline-block;
+    padding:1rem;
+}
+    &__link{
+    font-size: $nav-link__font-size;
+    color: $nav-link__text-color;   
+}    
+}
+
