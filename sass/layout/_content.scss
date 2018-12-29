@@ -1,7 +1,7 @@
 //VARIABLES
 
 //typography
-$main-section-item__font-size:0.80em;
+$main-section-item__font-size: 1em;
 //color
 $main-section-item__border-color:#cecccc;
 //STYLES
@@ -15,7 +15,7 @@ $main-section-item__border-color:#cecccc;
         line-height: 3;
         border-bottom: 0.1em solid $main-section-item__border-color;
         width:80%;
-        font-size: $main-section-item__font-size;//15px//
+        font-size: $main-section-item__font-size;
         font-family: $secondary__font-family;
     }
     &__graphics{
