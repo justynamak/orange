@@ -1,8 +1,8 @@
 //VARIABLES
 
 //typography
-$header-heading__font-size:15vw;
-$header-subtitle__font-size:1.125rem;
+
+$header-subtitle__font-size:1em;
 //colors
 $header-text__color:#fff;
 
@@ -19,27 +19,27 @@ $header-text__color:#fff;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3.125em; //50px//
+    margin-bottom: 3.125em; 
     line-height: 1;
     position:relative;
     overflow: hidden;
-    color: $header-text__color;
+    color: $header-text__color;  
     
-    &__heading{    
-        font-size: $header-heading__font-size;
-        padding: 2rem 1.5rem 0 1.5rem;
+    &__heading{
+        padding: 2rem 2.5rem 0 2.5rem;   
     }
     
     &__subtitle{    
         font-size:$header-subtitle__font-size;    
-        padding: 0 1.5rem;
+        padding: 0 2.5rem;
+        line-height: 1.5;
 }
     &__layout-author{
         position: absolute;
-        bottom: 2.5rem;
-        left:0.5rem;
+        bottom: 2.5em;
+        left:0.5em;
         transform: rotate(-90deg);
         transform-origin: 0 0;    
-        font-size: 0.625rem;    
+        font-size: 0.625em;    
     }
 }

@@ -1,7 +1,7 @@
 //NAV VARIABLES
 
 //typography
-$nav-link__font-size: 0.75rem;   //12px//
+$nav-link__font-size: 0.8em;  
 
 //colors
 $nav-link__text-color:#000;
@@ -11,16 +11,16 @@ $nav-link__text-color:#000;
 .nav{
     position:absolute;    
     top:0;
-    margin-bottom: 2rem;
+    margin-bottom: 2em;
     
     
     &__item{
-    display: inline-block;
-    padding:1rem;
+        display: inline-block;
+        padding:1em;
 }
     &__link{
-    font-size: $nav-link__font-size;
-    color: $nav-link__text-color;   
-}    
+        font-size: $nav-link__font-size;
+        color: $nav-link__text-color;   
+    }    
 }
 
